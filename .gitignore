@@ -1,0 +1,26 @@
+# Ignore virtual environment directory
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore Jupyter Notebook checkpoints (if you use Jupyter Notebooks)
+.ipynb_checkpoints/
+
+# Ignore MacOS-specific files
+.DS_Store
+
+# Ignore environment-specific files
+.env
+
+# Ignore Database files
+face_recognition.db
+
+# Encodings files
+known_encodings.pickle
+known_encodings_of_dataset.pickle
+
+# Ignore Dataset and People folders
+Dataset/
+People/
